@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { WhatsAppButton } from "@/components/whatsapp-button";
@@ -66,6 +67,7 @@ export default function RootLayout({
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <Analytics />
       </body>
     </html>
   );

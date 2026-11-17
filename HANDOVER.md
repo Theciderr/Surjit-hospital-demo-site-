@@ -25,6 +25,8 @@ Version 2 production build passes and generates 37 routes.
 
 Version 2 is on the `codex/version-2` branch, preserving the original `main` demo. The visual reference is https://arthusadvancedorthopaedics.com/. The design takes inspiration from its strong clinical hero, service navigation, team and FAQ structure, while retaining the hospital's own logo, contact details, departments and patient stories. It does not copy Arthus text, claims, or images.
 
+Vercel Web Analytics is installed through `@vercel/analytics` in the root layout. Enable Web Analytics for the Vercel project in its Analytics dashboard and redeploy this branch to collect page views.
+
 The homepage has a new navy and gold visual system, a mobile layout, featured department selector, doctors, facilities, patient stories, FAQs and appointment/phone paths. Inner pages share the same header, palette and typography.
 
 The surgical, specialist and department stock photographs are illustrative. The building photograph and doctor photos have separate provenance described below.
