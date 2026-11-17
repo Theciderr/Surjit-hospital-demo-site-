@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#17324D",
-        medical: "#197B8C",
-        "medical-dark": "#125C6A",
-        mist: "#F4FAFA",
-        line: "#DCE9EA"
+        ink: "#10234B",
+        medical: "#1A537C",
+        "medical-dark": "#10385F",
+        mist: "#F3F7FA",
+        line: "#DCE4EB"
       },
       boxShadow: {
         soft: "0 16px 40px rgba(23, 50, 77, 0.08)"

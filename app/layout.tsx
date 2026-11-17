@@ -5,6 +5,7 @@ import { Header } from "@/components/header";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { hospital } from "@/data/site";
 import "./globals.css";
+import "./v2.css";
 import { GeistSans } from "geist/font/sans";
 
 export const metadata: Metadata = {
